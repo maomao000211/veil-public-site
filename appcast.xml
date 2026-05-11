@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Veil Updates</title>
+    <link>https://maomao000211.github.io/veil-public-site/</link>
+    <description>Update feed for Veil</description>
+    <language>en</language>
+
+    <!--
+      Replace the placeholder values below with your real artifact URL,
+      Sparkle signature, and release date for each release.
+    -->
+    <item>
+      <title>Version 1.0.1</title>
+      <sparkle:version>101</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
+      <enclosure
+        url="https://github.com/maomao000211/veil-public-site/releases/download/v1.0.1/Veil.dmg"
+        sparkle:edSignature="YxNcp90YjOi82QhRbzYyGU2sC+aYJ41dOLDUmrjtbM6c1wHJ/rOSiu7rN3KRTo534tNj1XCPgUHVQK28xtzLCQ=="
+        length="2482438"
+        type="application/octet-stream" />
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+    </item>
+  </channel>
+</rss>
