@@ -14,7 +14,7 @@ Veil is a macOS menu bar app for focus and screen-share privacy:
 ## Download
 
 - Download notarized DMG from this repository's Release page:
-  `https://github.com/maomao000211/veil-public-site/releases/tag/v1.0.0`
+  `https://github.com/maomao000211/veil-public-site/releases/`
 
 ## Purchase
 
