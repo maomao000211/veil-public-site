@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Veil - Focus and privacy for macOS</title>
+    <title>Blur Background Windows on Mac - Veil for macOS</title>
     <meta
       name="description"
-      content="Veil is a macOS menu bar app that keeps your active window clear while dimming everything else."
+      content="Veil blurs and dims background windows on Mac, keeping your active app clear. Native menu bar app for meetings, presentations, demos, and recordings."
     />
+    <meta property="og:title" content="Blur Background Windows on Mac - Veil" />
+    <meta property="og:description" content="macOS menu bar app that blurs background windows. Keep your active app clear during screen sharing and recordings." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://veilformac.com/" />
+    <link rel="canonical" href="https://veilformac.com/" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -17,49 +22,145 @@
         <span>Veil</span>
       </div>
       <nav aria-label="Primary">
-        <a href="#features">Features</a>
-        <a href="#download">Download</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
       </nav>
     </header>
 
     <main>
+      <!-- Hero Section -->
       <section class="hero" id="download">
         <p class="eyebrow">macOS menu bar app</p>
-        <h1>Keep one window clear. Quiet everything else.</h1>
+        <h1>Blur Background Windows on Mac</h1>
         <p class="sub">
-          Veil helps you stay focused and protect screen-share privacy by dimming or softening
-          inactive windows while keeping your active window readable.
+          Keep your active app clear while Veil dims or blurs everything else.
+          For meetings, presentations, demos, and recordings.
         </p>
         <div class="actions">
-          <a class="button primary" href="https://github.com/maomao000211/veil-public-site/releases/download/v1.0.0/Veil-1.0.0.dmg">
-            Download for macOS
-          </a>
-          <a class="button secondary" href="https://www.creem.io/payment/prod_1h9TcjzR67OKNz0x3pbE0V">
-            Buy Veil
+          <a class="button primary" href="https://github.com/maomao000211/veil-public-site/releases/latest/download/Veil.dmg">
+            Download Veil.dmg
           </a>
         </div>
-        <p class="meta">Version 1.0.0 · Signed and notarized DMG · 3-day trial included</p>
+        <p class="meta">Signed · Notarized · Menu bar app</p>
+        <p class="meta site-id">veilformac.com</p>
       </section>
 
+      <!-- Disambiguation Notice -->
+      <aside class="disambiguation">
+        <strong>Note:</strong> Veil for Mac is a menu-bar app from veilformac.com.
+        It is not the App Store app named "Veil-Focus &amp; Screen Privacy."
+      </aside>
+
+      <!-- Value Proposition -->
+      <section class="value-prop">
+        <h2>One menu-bar toggle. No extra meeting-app setup.</h2>
+        <p>
+          Veil works alongside any screen sharing tool. Toggle the overlay before you share or record—that's it.
+        </p>
+        <p class="honest-note">
+          Veil does not replace Zoom/Teams window or screen pickers. For notification control, use macOS Focus or Do Not Disturb.
+        </p>
+      </section>
+
+      <!-- How It Works -->
+      <section class="how-it-works" id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <article class="step">
+            <span class="step-number">1</span>
+            <h3>Install the DMG</h3>
+            <p>Download, open, and drag Veil to Applications. Signed and notarized by Apple.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">2</span>
+            <h3>Toggle before sharing</h3>
+            <p>Click the menu bar icon to enable the overlay before you start screen sharing or recording.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">3</span>
+            <h3>Overlay follows focus</h3>
+            <p>The overlay automatically tracks your foreground window, keeping it clear while dimming everything else.</p>
+          </article>
+        </div>
+        <p class="peek-note">
+          Use <strong>Peek Mode</strong> to temporarily reveal background windows without disabling the overlay.
+        </p>
+      </section>
+
+      <!-- Features Grid -->
       <section class="features" id="features">
         <article>
-          <h2>Automatic focus layer</h2>
+          <h3>Automatic focus layer</h3>
           <p>Tracks your foreground window and keeps it clear while reducing distraction elsewhere.</p>
         </article>
         <article>
-          <h2>Screen-share privacy</h2>
+          <h3>Screen-share privacy</h3>
           <p>Lower the chance of exposing messages, tabs, or notes in meetings and recordings.</p>
         </article>
         <article>
-          <h2>Menu bar control</h2>
-          <p>Turn Veil on/off instantly, use Peek Mode, and activate license from Settings.</p>
+          <h3>Menu bar control</h3>
+          <p>Turn Veil on/off instantly from the menu bar. Access Peek Mode and settings with one click.</p>
         </article>
+      </section>
+
+      <!-- Pricing Section -->
+      <section class="pricing" id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-card">
+          <p class="trial-info">3-day free trial included with download</p>
+          <a class="button primary" href="https://www.creem.io/payment/prod_1h9TcjzR67OKNz0x3pbE0V">
+            Buy License
+          </a>
+          <p class="activate-link">
+            Already purchased? <a href="/activation.html" class="text-link">Activate</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq" id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+          <summary>Does Veil work with Zoom, Teams, or Google Meet?</summary>
+          <p>
+            Yes. Veil works alongside any screen sharing tool. Toggle the overlay before you share your screen.
+            Note that Veil does not auto-detect when you start sharing—you enable it manually from the menu bar.
+          </p>
+        </details>
+        <details>
+          <summary>Is this the same Veil on the Mac App Store?</summary>
+          <p>
+            No. Veil for Mac (veilformac.com) is a separate product distributed as a signed, notarized DMG.
+            The App Store app "Veil-Focus &amp; Screen Privacy" is a different product by a different developer.
+          </p>
+        </details>
+        <details>
+          <summary>How do I activate my license?</summary>
+          <p>
+            After purchasing, open Veil from the menu bar, go to Settings, and enter your license key.
+            The 3-day trial starts automatically when you first launch the app.
+          </p>
+        </details>
+        <details>
+          <summary>What macOS versions are supported?</summary>
+          <p>
+            Veil requires macOS 13 (Ventura) or later.
+          </p>
+        </details>
+        <details>
+          <summary>Is the DMG safe to install?</summary>
+          <p>
+            Yes. The DMG is signed with an Apple Developer ID and notarized by Apple.
+            macOS Gatekeeper will verify the signature when you open it.
+          </p>
+        </details>
       </section>
     </main>
 
     <footer>
-      <span>Veil © 2026</span>
-      <a href="https://github.com/maomao000211/Veil">Main Project</a>
+      <span>Veil © 2026 · veilformac.com</span>
+      <a href="https://github.com/maomao000211/veil-public-site/releases">Releases</a>
     </footer>
   </body>
 </html>
