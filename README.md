@@ -19,7 +19,7 @@ Veil is a macOS menu bar app for focus and screen-share privacy:
 ## Purchase
 
 - Buy license:
-  `https://www.creem.io/payment/prod_1h9TcjzR67OKNz0x3pbE0V`
+  `https://www.creem.io/payment/prod_QEvPAHMTChwR5KNhyKrKI`
 
 ## Repository scope
 
